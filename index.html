@@ -1,7 +1,60 @@
-<doctype HTML>
-<html>
-  <head></head>
-  <body>
-    <h3>HEJKA</h3>
-  </body>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twoje Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#about" class="nav-link">O mnie</a>
+            <a href="#projects" class="nav-link">Projekty</a>
+            <a href="#contact" class="nav-link">Kontakt</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section id="about" class="section about-section">
+            <h1 class="section-title">Cześć, jestem Twoje Imię</h1>
+            <p class="section-subtitle">Jestem programistą, specjalizującym się w tworzeniu nowoczesnych stron internetowych.</p>
+            <p>Tutaj możesz dodać więcej informacji o sobie, swoich umiejętnościach i pasjach. Opowiedz o tym, co Cię motywuje i w jakich technologiach czujesz się najlepiej.</p>
+        </section>
+
+        <section id="projects" class="section projects-section">
+            <h2 class="section-title">Moje Projekty</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3 class="project-title">Nazwa Projektu 1</h3>
+                    <p class="project-description">Krótki opis projektu, użyte technologie (np. HTML, CSS, JavaScript).</p>
+                    <a href="#" class="project-link" target="_blank">Zobacz projekt</a>
+                    <a href="#" class="project-link" target="_blank">Kod na GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">Nazwa Projektu 2</h3>
+                    <p class="project-description">Opis drugiego projektu. Możesz tu dodać listę kluczowych funkcji.</p>
+                    <a href="#" class="project-link" target="_blank">Zobacz projekt</a>
+                    <a href="#" class="project-link" target="_blank">Kod na GitHub</a>
+                </div>
+                </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <h2 class="section-title">Kontakt</h2>
+            <p>Chętnie nawiążę kontakt! Możesz mnie znaleźć pod tymi linkami:</p>
+            <div class="contact-links">
+                <a href="mailto:twoj_email@example.com" class="contact-link">Email</a>
+                <a href="#" class="contact-link" target="_blank">LinkedIn</a>
+                <a href="#" class="contact-link" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
 </html>
